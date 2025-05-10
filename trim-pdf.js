@@ -3,10 +3,10 @@ import fs from "node:fs/promises";
 import { PDFDocument, degrees } from "pdf-lib";
 
 // ========== 設定 ==========
-const SRC  = "IMG_20250510_0003.pdf";
+const SRC  = "IMG_20250511_0002.pdf";
 const DEST = "trimmed.pdf";
-const keepWidthMm  = 80;    // 残す横幅
-const keepHeightMm = 118;   // 残す縦幅
+const keepWidthMm  = 62;    // 残す横幅
+const keepHeightMm = 86;   // 残す縦幅
 // ==========================
 
 const mm2pt = (mm) => mm * 72 / 25.4;

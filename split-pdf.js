@@ -7,7 +7,7 @@ import { PDFDocument } from "pdf-lib";
 const SRC_PDF = "trimmed.pdf";
 const OUT_DIR = "pages";
 const DPI     = 300;
-const PREFIX  = "page";
+const PREFIX  = "introduction"; // 出力ファイル名の接頭辞
 // ==========================
 
 // 0) 仕向けフォルダ
